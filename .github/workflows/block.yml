@@ -1,0 +1,8 @@
+on:
+  pull_request:
+
+jobs:
+  ze-job:
+    runs-on: ubuntu_latest
+    steps:
+      - run: sleep 5m
