@@ -1,6 +1,7 @@
 on:
   pull_request:
   check_suite:
+  status:
 
 jobs:
   firstjob:
