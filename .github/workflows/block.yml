@@ -2,7 +2,7 @@ on:
   push:
 
 jobs:
-  ze-job:
+  ze-job-main:
     runs-on: ubuntu_latest
     steps:
       - run: echo one
