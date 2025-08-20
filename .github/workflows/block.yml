@@ -3,8 +3,8 @@ on:
 
 jobs:
   ze-job-main:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo one
-      #- run: sleep 1m
+      - run: sleep 1m
       - run: echo two
