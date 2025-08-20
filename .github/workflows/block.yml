@@ -5,4 +5,6 @@ jobs:
   ze-job:
     runs-on: ubuntu_latest
     steps:
-      - run: sleep 5m
+      - run: echo one
+      - run: sleep 1m
+      - run: echo two
